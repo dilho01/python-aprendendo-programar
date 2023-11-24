@@ -1,0 +1,8 @@
+t=int(input('dgite um numero para saber a tabuada:'))
+print('------------------')
+print('{}*1={}\n{}*2={}'.format(t,(t*1),t,(t*2)))
+print('{}*3={}\n{}*4={}'.format(t,(t*3),t,(t*4)))
+print('{}*5={}\n{}*6={}'.format(t,(t*5),t,(t*6)))
+print('{}*7={}\n{}*8={}'.format(t,(t*7),t,(t*8)))
+print('{}*9={}\n{}*10={}'.format(t,(t*9),t,(t*10)))
+print('-------------------')

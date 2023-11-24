@@ -1,0 +1,10 @@
+a = ('botafogo', 'gremio', 'flamengo', 'palmeras', 'athetico-ph', 'chapecoense',
+     'são paulo', 'fluminenise', 'bragantino')
+print('=-'*35)
+print(f'os 5 prrimeros colocados são {a[:5]}')
+print('=-'*35)
+print(f'os 4 ultimos colocados são {a[-4:]}')
+print('=-'*35)
+print(f'ordem alfabetica e {sorted(a)}')
+print('=-'*35)
+print(f'o capecoense estar na posição {a.index("chapecoense")+1}ª')
